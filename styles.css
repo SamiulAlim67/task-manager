@@ -1,0 +1,64 @@
+/* Body styling */
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f4f4f4; 
+    margin: 0;
+}
+/* Container styling */
+#app { 
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    width: 300px; 
+    text-align: center;
+}
+/* Input and button styling */
+input, select, button { 
+    margin: 5px 0; 
+    padding: 10px; 
+    width: calc(100% - 20px); 
+    border-radius: 4px; 
+    border: 1px solid #ddd; 
+    font-size: 16px;
+}
+/* Button hover effect */
+button { 
+    background-color: #28a745; 
+    color: white; 
+    cursor: pointer; 
+    border: none;
+}
+button:hover { 
+    background-color: #218838;
+}
+/* Task list container styling */
+#taskList { 
+    margin-top: 20px;
+}
+#filters, #sortOptions { 
+    margin-top: 10px;
+}
+.taskItem {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.taskItem .priority {
+    font-weight: bold;
+}
+.taskItem .actions {
+    text-align: right;
+}
+.taskItem .actions button {
+    margin-left: 5px;
+}
+.low { background-color: #d4edda; }
+.medium { background-color: #fff3cd; }
+.high { background-color: #f8d7da; }
